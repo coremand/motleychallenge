@@ -1,18 +1,30 @@
 
 ## Editing Info
 template I used for coding exercise https://todomvc.com/examples/react/#/.
+
 Original application does not include an urgent feature, I added this functionality.
+
 Added an urgent button.
+
 I added the ability to add a todo to an urgent list.
+
 A todo cannot be added twice.
+
 Created an Urgent component.
+
+Original code can be found in todomvc/examples/react/react-hooks
+
+
 Created a styles folder and Urgent.css file
 
 added logic in TodoList.js and TodoItem.js
 
 ## Improvements
 Would make the Urgent tag functional to show list of todos
-App currently lists urgent todos on all page
+
+App currently lists urgent todos on all pages
+
+Would add a delete urgent todo functionality.
 
 # Hooks TODO
 A simple todo app built using react hooks.
