@@ -1,0 +1,22 @@
+.urgent{
+    cursor: pointer;
+    width: 5rem;
+    height: 2rem;
+    background-color: rgba(252, 32, 3, 0.6) ;
+    margin-left: 2rem;
+    margin-bottom: 0.5rem;
+    border-radius: 0.4rem;
+    color: #ffffff;
+}
+
+.urgent-list{
+    list-style-type: none;
+    color: rgba(252, 32, 3, 0.6);
+    text-align: center;
+    
+}
+
+.urgent-li{
+    background-color: rgba(66, 245, 144, 0.4);
+    margin-top: 1rem;
+}
