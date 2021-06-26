@@ -31,6 +31,7 @@ export default function TodoItem({ todo, addUrgent, urgent }) {
   const ref = useRef();
   useOnClickOutside(ref, finishedCallback);
 
+  //My code for adding a todo to Urgent
   const urgentHandler = (event) => {
     addUrgent(todo)
   }

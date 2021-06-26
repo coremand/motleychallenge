@@ -14,6 +14,7 @@ export default function TodoList() {
   const router = useRouter();
 
   const [todos, { addTodo, deleteTodo, setDone }] = useTodos();
+  //My code for state
   const [urgent, setUrgent] = useState([]);
 
   const left = useMemo(() => todos.reduce((p, c) => p + (c.done ? 0 : 1), 0), [

@@ -1,6 +1,6 @@
 
 ## Editing Info
-template I used for coding exercise todomvc/examples/react-hooks.
+template I used for coding exercise https://todomvc.com/examples/react/#/.
 Original application does not include an urgent feature, I added this functionality.
 Added an urgent button.
 I added the ability to add a todo to an urgent list.
@@ -23,7 +23,9 @@ A live demo is available at: https://jacob-ebey.github.io/hooks-todo/
 
 In the project directory, you can run:
 
-### `npm dev`
+### `npm install`
+
+### `npm run dev`
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
